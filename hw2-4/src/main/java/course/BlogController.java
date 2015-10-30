@@ -68,7 +68,7 @@ public class BlogController {
         sessionDAO = new SessionDAO(blogDatabase);
 
         cfg = createFreemarkerConfiguration();
-        setPort(4567);
+        setPort(8082);
         initializeRoutes();
     }
 
